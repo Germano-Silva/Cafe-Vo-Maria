@@ -1,4 +1,4 @@
-# Café Vó Maria - Sistema Integrado
+# Café Vó Maria - Sistema Integrado 
 
 Bem-vindo ao repositório do sistema integrado do **Café Vó Maria**! Este projeto combina uma **landing page**, um **aplicativo de gerenciamento de estoque** e uma **plataforma de compras online**, desenvolvidos para promover a marca, otimizar a operação da cafeteria e melhorar a experiência dos clientes.
 
@@ -9,11 +9,36 @@ O objetivo é criar três soluções integradas:
 2. **Aplicativo de Gerenciamento de Estoque**: Para controle de entradas, saídas, níveis de estoque e alertas de reposição.
 3. **Aplicativo de Compras Online**: Para oferecer um catálogo de produtos, personalização de pedidos, carrinho de compras e futura integração com sistemas de pagamento.
 
+## Visão do Sistema
+
+### Diagrama de Casos de Uso  
+![Diagrama de Casos de Uso](docs/CasoDeUso.png)
+
+Representa as principais interações entre os usuários e os módulos do sistema.
+
+### Fluxograma de Dados  
+![Fluxograma de Dados](docs/FluxoDados.png)
+
+Ilustra como os dados percorrem o sistema, do input à persistência.
+
+### Arquitetura do Sistema  
+![Arquitetura do Sistema](docs/Arquitetura.png)
+
+Demonstra a organização dos componentes, tecnologias e camadas que estruturam o sistema.
+
+### Modelo Lógico do Banco de Dados
+![Modelo Lógico do Banco de Dados](docs/ModeloLogicoBD.png)
+
+Representação das entidades, atributos e relacionamentos presentes no banco de dados do sistema.
+
+
+
+
 ## Tecnologias Utilizadas
 
 - **Front-end**:
+  - Linguagens: **HTML5, CSS3 e TypeScript**.
   - Framework: **Angular**.
-  - Linguagens: HTML5, CSS3 e TypeScript.
 - **Back-end**:
   - Linguagem: **Java**.
   - Framework: **Spring Boot**.
